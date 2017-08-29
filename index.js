@@ -3,6 +3,8 @@ function forEach(iterable, callback) {
     for (let i = 0, l = iterable.length; i < l; i++) {
       const element = iterable[i];
       callback(element, i, iterable);
-      
+    }
+  } else if (typeof iterable === 'object') {
+    
   }
 }
