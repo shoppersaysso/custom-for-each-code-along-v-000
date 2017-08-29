@@ -1,1 +1,5 @@
-function forEach(iterable, callback) {}
+function forEach(iterable, callback) {
+  if (Array.isArray(iterable)) {
+    
+  }
+}
